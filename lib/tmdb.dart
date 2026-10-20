@@ -4,7 +4,7 @@ import 'package:http/http.dart' as http;
 /// TMDB access — same API key the iQPlay website itself uses, so the app
 /// shows identical catalog data (posters, ratings, metadata).
 class Tmdb {
-  static const String apiKey = '<redacted>';
+  static const String apiKey = 'fed86956458f19fb45cdd382b6e6de83';
   static const String base = 'https://api.themoviedb.org/3';
   static const String img500 = 'https://image.tmdb.org/t/p/w500';
   static const String img780 = 'https://image.tmdb.org/t/p/w780';
